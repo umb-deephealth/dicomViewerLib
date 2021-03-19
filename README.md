@@ -1,6 +1,7 @@
 # Dicom Viewer Component
 
 [![Angular Style Guide](https://mgechev.github.io/angular2-style-guide/images/badge.svg)](https://angular.io/styleguide)
+[![Build Status](https://travis-ci.org/fourctv/dicomViewerLib.svg?branch=master)](https://travis-ci.org/fourctv/dicomViewerLib)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 [![Dependency Status](https://david-dm.org/fourctv/dicomViewerLib.svg)](https://david-dm.org/fourctv/dicomViewerLib)
 [![devDependency Status](https://david-dm.org/fourctv/dicomViewerLib/dev-status.svg)](https://david-dm.org/fourctv/dicomViewerLib#info=devDependencies)
@@ -21,7 +22,7 @@ npm install ng-dicomviewer --save
 
 This component depends on `cornerstonejs`, so you need to also install `cornerstone` and `cornerstoneTools` modules into your project:
 ```
-npm install cornerstone-core cornerstone-math dicom-parser cornerstone-tools@2.5.0 --save
+npm install cornerstone-core cornerstone-math dicom-parser cornerstone-tools --save
 ```
 
 ## Usage
@@ -72,8 +73,7 @@ The component includes some input properties and a method to load/show dicom ima
 
 ### Input properties
 
-- enableViewerTools: a boolean `true|false` to indicate if Viewer tools should be enabled or not. Tools include Langth, Angle, Elliptical ROI, etc...
-- enablePlayTools: a boolean `true|false` to indicate if Play Clip tools should be enabled or not.
+- enableViewerTools: a boolean `true|false` to indicate of viewer tools should be enabled or not. Tools include Langth, Angle, Elliptical ROI, etc...
 - maxImagesToLoad: maximum number of images to load for display (default: 20). If more images are set for display, they will be loaded `maxImagesToLoad` at a time. If value is set to `0` or `-1`, no image loading limit will apply.
 - downloadImagesURL: optional property, if set a **Download Images** button will be enabled. The URI value set will be used to download all images as a `.zip` file.
 
