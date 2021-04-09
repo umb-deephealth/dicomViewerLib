@@ -10,42 +10,35 @@ import * as ɵngcc2 from '@angular/material/progress-spinner';
 
 const _c0 = function (a0) { return { "active": a0 }; };
 function DICOMViewerComponent_div_1_a_2_Template(rf, ctx) { if (rf & 1) {
-    const _r10 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "a", 31);
-    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_div_1_a_2_Template_a_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r10); const i_r8 = ctx.index; const ctx_r9 = ɵngcc0.ɵɵnextContext(2); return ctx_r9.showSeries(i_r8); });
-    ɵngcc0.ɵɵelement(1, "div", 32);
-    ɵngcc0.ɵɵelementStart(2, "div", 33);
+    const _r8 = ɵngcc0.ɵɵgetCurrentView();
+    ɵngcc0.ɵɵelementStart(0, "a", 20);
+    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_div_1_a_2_Template_a_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r8); const i_r6 = ctx.index; const ctx_r7 = ɵngcc0.ɵɵnextContext(2); return ctx_r7.showSeries(i_r6); });
+    ɵngcc0.ɵɵelement(1, "div", 21);
+    ɵngcc0.ɵɵelementStart(2, "div", 22);
     ɵngcc0.ɵɵtext(3);
     ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementStart(4, "div", 22);
-    ɵngcc0.ɵɵelementStart(5, "div", 34);
+    ɵngcc0.ɵɵelementStart(4, "div", 12);
+    ɵngcc0.ɵɵelementStart(5, "div", 23);
     ɵngcc0.ɵɵtext(6);
     ɵngcc0.ɵɵelementEnd();
     ɵngcc0.ɵɵelementEnd();
     ɵngcc0.ɵɵelementEnd();
 } if (rf & 2) {
-    const series_r7 = ctx.$implicit;
-    const i_r8 = ctx.index;
-    const ctx_r6 = ɵngcc0.ɵɵnextContext(2);
-    ɵngcc0.ɵɵproperty("ngClass", ɵngcc0.ɵɵpureFunction1(4, _c0, ctx_r6.currentSeriesIndex === i_r8));
+    const series_r5 = ctx.$implicit;
+    const i_r6 = ctx.index;
+    const ctx_r4 = ɵngcc0.ɵɵnextContext(2);
+    ɵngcc0.ɵɵproperty("ngClass", ɵngcc0.ɵɵpureFunction1(4, _c0, ctx_r4.currentSeriesIndex === i_r6));
     ɵngcc0.ɵɵadvance(1);
-    ɵngcc0.ɵɵproperty("imageData", series_r7.imageList[0]);
+    ɵngcc0.ɵɵproperty("imageData", series_r5.imageList[0]);
     ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵtextInterpolate(series_r7.seriesDescription);
+    ɵngcc0.ɵɵtextInterpolate(series_r5.seriesDescription);
     ɵngcc0.ɵɵadvance(3);
-    ɵngcc0.ɵɵtextInterpolate(series_r7.imageCount);
+    ɵngcc0.ɵɵtextInterpolate(series_r5.imageCount);
 } }
 function DICOMViewerComponent_div_1_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "div", 26);
-    ɵngcc0.ɵɵelementStart(1, "div", 27);
-    ɵngcc0.ɵɵtemplate(2, DICOMViewerComponent_div_1_a_2_Template, 7, 6, "a", 28);
-    ɵngcc0.ɵɵelementStart(3, "div", 29);
-    ɵngcc0.ɵɵelementStart(4, "h6", 30);
-    ɵngcc0.ɵɵelementStart(5, "small");
-    ɵngcc0.ɵɵtext(6, "1.20.12.17");
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementEnd();
+    ɵngcc0.ɵɵelementStart(0, "div", 17);
+    ɵngcc0.ɵɵelementStart(1, "div", 18);
+    ɵngcc0.ɵɵtemplate(2, DICOMViewerComponent_div_1_a_2_Template, 7, 6, "a", 19);
     ɵngcc0.ɵɵelementEnd();
     ɵngcc0.ɵɵelementEnd();
 } if (rf & 2) {
@@ -54,79 +47,57 @@ function DICOMViewerComponent_div_1_Template(rf, ctx) { if (rf & 1) {
     ɵngcc0.ɵɵproperty("ngForOf", ctx_r0.seriesList);
 } }
 function DICOMViewerComponent_div_5_Template(rf, ctx) { if (rf & 1) {
-    const _r12 = ɵngcc0.ɵɵgetCurrentView();
+    const _r10 = ɵngcc0.ɵɵgetCurrentView();
     ɵngcc0.ɵɵelementStart(0, "div", 3);
-    ɵngcc0.ɵɵelementStart(1, "button", 35);
-    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_div_5_Template_button_click_1_listener() { ɵngcc0.ɵɵrestoreView(_r12); const ctx_r11 = ɵngcc0.ɵɵnextContext(); return ctx_r11.enableWindowing(); });
-    ɵngcc0.ɵɵelement(2, "span", 36);
+    ɵngcc0.ɵɵelementStart(1, "button", 24);
+    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_div_5_Template_button_click_1_listener() { ɵngcc0.ɵɵrestoreView(_r10); const ctx_r9 = ɵngcc0.ɵɵnextContext(); return ctx_r9.enableZoom(); });
+    ɵngcc0.ɵɵelement(2, "span", 25);
     ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementStart(3, "button", 37);
-    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_div_5_Template_button_click_3_listener() { ɵngcc0.ɵɵrestoreView(_r12); const ctx_r13 = ɵngcc0.ɵɵnextContext(); return ctx_r13.invertImage(); });
-    ɵngcc0.ɵɵelement(4, "span", 38);
+    ɵngcc0.ɵɵelementStart(3, "button", 26);
+    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_div_5_Template_button_click_3_listener() { ɵngcc0.ɵɵrestoreView(_r10); const ctx_r11 = ɵngcc0.ɵɵnextContext(); return ctx_r11.enablePan(); });
+    ɵngcc0.ɵɵelement(4, "span", 27);
     ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementStart(5, "button", 39);
-    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_div_5_Template_button_click_5_listener() { ɵngcc0.ɵɵrestoreView(_r12); const ctx_r14 = ɵngcc0.ɵɵnextContext(); return ctx_r14.enableScroll(); });
-    ɵngcc0.ɵɵelement(6, "span", 40);
+    ɵngcc0.ɵɵelementStart(5, "button", 28);
+    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_div_5_Template_button_click_5_listener() { ɵngcc0.ɵɵrestoreView(_r10); const ctx_r12 = ɵngcc0.ɵɵnextContext(); return ctx_r12.enableWindowing(); });
+    ɵngcc0.ɵɵelement(6, "span", 29);
     ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementStart(7, "button", 41);
-    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_div_5_Template_button_click_7_listener() { ɵngcc0.ɵɵrestoreView(_r12); const ctx_r15 = ɵngcc0.ɵɵnextContext(); return ctx_r15.enableLength(); });
-    ɵngcc0.ɵɵelement(8, "span", 42);
+    ɵngcc0.ɵɵelementStart(7, "button", 30);
+    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_div_5_Template_button_click_7_listener() { ɵngcc0.ɵɵrestoreView(_r10); const ctx_r13 = ɵngcc0.ɵɵnextContext(); return ctx_r13.invertImage(); });
+    ɵngcc0.ɵɵelement(8, "span", 31);
     ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementStart(9, "button", 43);
-    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_div_5_Template_button_click_9_listener() { ɵngcc0.ɵɵrestoreView(_r12); const ctx_r16 = ɵngcc0.ɵɵnextContext(); return ctx_r16.enableAngle(); });
-    ɵngcc0.ɵɵelement(10, "span", 44);
+    ɵngcc0.ɵɵelementStart(9, "button", 32);
+    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_div_5_Template_button_click_9_listener() { ɵngcc0.ɵɵrestoreView(_r10); const ctx_r14 = ɵngcc0.ɵɵnextContext(); return ctx_r14.enableRectangle(); });
+    ɵngcc0.ɵɵelement(10, "span", 33);
     ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementStart(11, "button", 45);
-    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_div_5_Template_button_click_11_listener() { ɵngcc0.ɵɵrestoreView(_r12); const ctx_r17 = ɵngcc0.ɵɵnextContext(); return ctx_r17.enableProbe(); });
-    ɵngcc0.ɵɵelement(12, "span", 46);
+    ɵngcc0.ɵɵelementStart(11, "button", 34);
+    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_div_5_Template_button_click_11_listener() { ɵngcc0.ɵɵrestoreView(_r10); const ctx_r15 = ɵngcc0.ɵɵnextContext(); return ctx_r15.enableLength(); });
+    ɵngcc0.ɵɵelement(12, "span", 35);
     ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementStart(13, "button", 47);
-    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_div_5_Template_button_click_13_listener() { ɵngcc0.ɵɵrestoreView(_r12); const ctx_r18 = ɵngcc0.ɵɵnextContext(); return ctx_r18.enableElliptical(); });
-    ɵngcc0.ɵɵelement(14, "span", 48);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementStart(15, "button", 49);
-    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_div_5_Template_button_click_15_listener() { ɵngcc0.ɵɵrestoreView(_r12); const ctx_r19 = ɵngcc0.ɵɵnextContext(); return ctx_r19.enableRectangle(); });
-    ɵngcc0.ɵɵelement(16, "span", 50);
-    ɵngcc0.ɵɵelementEnd();
-    ɵngcc0.ɵɵelementStart(17, "button", 51);
-    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_div_5_Template_button_click_17_listener() { ɵngcc0.ɵɵrestoreView(_r12); const ctx_r20 = ɵngcc0.ɵɵnextContext(); return ctx_r20.resetImage(); });
-    ɵngcc0.ɵɵelement(18, "span", 52);
+    ɵngcc0.ɵɵelementStart(13, "button", 36);
+    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_div_5_Template_button_click_13_listener() { ɵngcc0.ɵɵrestoreView(_r10); const ctx_r16 = ɵngcc0.ɵɵnextContext(); return ctx_r16.resetImage(); });
+    ɵngcc0.ɵɵelement(14, "span", 37);
     ɵngcc0.ɵɵelementEnd();
     ɵngcc0.ɵɵelementEnd();
 } }
-function DICOMViewerComponent_button_11_Template(rf, ctx) { if (rf & 1) {
-    const _r22 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "button", 53);
-    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_button_11_Template_button_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r22); const ctx_r21 = ɵngcc0.ɵɵnextContext(); return ctx_r21.playClip(); });
-    ɵngcc0.ɵɵelement(1, "span", 54);
-    ɵngcc0.ɵɵelementEnd();
-} }
-function DICOMViewerComponent_button_12_Template(rf, ctx) { if (rf & 1) {
-    const _r24 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "button", 55);
-    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_button_12_Template_button_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r24); const ctx_r23 = ɵngcc0.ɵɵnextContext(); return ctx_r23.stopClip(); });
-    ɵngcc0.ɵɵelement(1, "span", 56);
-    ɵngcc0.ɵɵelementEnd();
-} }
-function DICOMViewerComponent_a_13_Template(rf, ctx) { if (rf & 1) {
-    ɵngcc0.ɵɵelementStart(0, "a", 57);
-    ɵngcc0.ɵɵelement(1, "span", 58);
+function DICOMViewerComponent_a_7_Template(rf, ctx) { if (rf & 1) {
+    ɵngcc0.ɵɵelementStart(0, "a", 38);
+    ɵngcc0.ɵɵelement(1, "span", 39);
     ɵngcc0.ɵɵelementEnd();
 } if (rf & 2) {
-    const ctx_r4 = ɵngcc0.ɵɵnextContext();
-    ɵngcc0.ɵɵproperty("href", ctx_r4.downloadImagesURL, ɵngcc0.ɵɵsanitizeUrl);
+    const ctx_r2 = ɵngcc0.ɵɵnextContext();
+    ɵngcc0.ɵɵproperty("href", ctx_r2.downloadImagesURL, ɵngcc0.ɵɵsanitizeUrl);
 } }
-function DICOMViewerComponent_a_18_Template(rf, ctx) { if (rf & 1) {
-    const _r26 = ɵngcc0.ɵɵgetCurrentView();
-    ɵngcc0.ɵɵelementStart(0, "a", 59);
-    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_a_18_Template_a_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r26); const ctx_r25 = ɵngcc0.ɵɵnextContext(); return ctx_r25.loadMoreImages(); });
-    ɵngcc0.ɵɵelement(1, "i", 60);
+function DICOMViewerComponent_a_8_Template(rf, ctx) { if (rf & 1) {
+    const _r18 = ɵngcc0.ɵɵgetCurrentView();
+    ɵngcc0.ɵɵelementStart(0, "a", 40);
+    ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_a_8_Template_a_click_0_listener() { ɵngcc0.ɵɵrestoreView(_r18); const ctx_r17 = ɵngcc0.ɵɵnextContext(); return ctx_r17.loadMoreImages(); });
+    ɵngcc0.ɵɵelement(1, "i", 41);
     ɵngcc0.ɵɵtext(2);
     ɵngcc0.ɵɵelementEnd();
 } if (rf & 2) {
-    const ctx_r5 = ɵngcc0.ɵɵnextContext();
+    const ctx_r3 = ɵngcc0.ɵɵnextContext();
     ɵngcc0.ɵɵadvance(2);
-    ɵngcc0.ɵɵtextInterpolate1(" clique aqui para trazer as pr\u00F3ximas ", ctx_r5.moreImagestoLoad, " imagens ");
+    ɵngcc0.ɵɵtextInterpolate1(" clique aqui para trazer as pr\u00F3ximas ", ctx_r3.moreImagestoLoad, " imagens ");
 } }
 class CornerstoneDirective {
     constructor(elementRef) {
@@ -726,59 +697,44 @@ DICOMViewerComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: DICOMViewerComp
         let _t;
         ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.viewPort = _t.first);
         ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.thumbnails = _t);
-    } }, inputs: { enableViewerTools: "enableViewerTools", enablePlayTools: "enablePlayTools", downloadImagesURL: "downloadImagesURL", maxImagesToLoad: "maxImagesToLoad" }, decls: 35, vars: 15, consts: [[2, "display", "flex", "width", "100%", "height", "100%"], ["class", "thumbnailSelector", "style", "margin-right: 5px;", 4, "ngIf"], [2, "overflow", "hidden", "width", "100%", "height", "100%", "background-color", "#424242"], [1, "btn-group"], ["class", "btn-group", 4, "ngIf"], ["type", "  button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Zoom", 1, "btn", "btn-sm", "btn-default", 3, "click"], [1, "fa", "fa-search"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Pan", 1, "btn", "btn-sm", "btn-default", 3, "click"], [1, "fa", "fa-arrows-alt"], ["type", "button", "style", "border-left: 1px dotted white;", "class", "btn btn-sm btn-default", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Play Clip", 3, "click", 4, "ngIf"], ["type", "button", "class", "btn btn-sm btn-default", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Stop Clip", 3, "click", 4, "ngIf"], ["download", "", "style", "border-left: 1px dotted white;", "class", "btn btn-sm btn-default", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Download Imagens", 3, "href", 4, "ngIf"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Imagem Anterior", 1, "btn", "btn-sm", "btn-default", 2, "border-left", "1px dotted white", 3, "ngStyle", "click"], [1, "fa", "fa-backward"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Pr\u00F3xima Imagem", 1, "btn", "btn-sm", "btn-default", 3, "ngStyle", "click"], [1, "fa", "fa-forward"], ["type", "button", "style", "border-left: 1px dotted white;color: white;white-space: nowrap;", "class", "btn btn-sm btn-default", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Carrega mais imagens...", 3, "click", 4, "ngIf"], [2, "padding-left", "15px", "padding-top", "15px", 3, "ngStyle"], ["diameter", "30", "strokeWidth", "5", "color", "warn", 2, "display", "inline-block"], ["oncontextmenu", "return false", "unselectable", "on", "onselectstart", "return false;", "onmousedown", "return false;", 1, "cornerstone-enabled-image", 2, "width", "100%", "height", "calc(100% - 60px)", "position", "relative", "display", "inline-block", "color", "white"], ["cornerstone", "", "id", "dicomImage", 2, "width", "100%", "height", "100%", "top", "0px", "left", "0px", "position", "absolute", "outline", "none", "margin", "0 auto"], ["id", "mrtopleft", 2, "position", "absolute", "top", "3px", "left", "3px"], ["id", "mrtopright", 2, "position", "absolute", "top", "3px", "right", "3px"], ["id", "mrbottomleft", 2, "position", "absolute", "bottom", "3px", "left", "3px"], ["id", "mrbottomright", 2, "position", "absolute", "bottom", "6px", "right", "3px"], ["id", "sliceText"], [1, "thumbnailSelector", 2, "margin-right", "5px"], [1, "thumbnails", "list-group", 2, "height", "100%"], ["class", "list-group-item", "oncontextmenu", "return false", "unselectable", "on", "onselectstart", "return false;", "onmousedown", "return false;", 3, "ngClass", "click", 4, "ngFor", "ngForOf"], [1, "version"], [2, "color", "white"], ["oncontextmenu", "return false", "unselectable", "on", "onselectstart", "return false;", "onmousedown", "return false;", 1, "list-group-item", 3, "ngClass", "click"], ["thumbnail", "", "oncontextmenu", "return false", "unselectable", "on", "onselectstart", "return false;", "onmousedown", "return false;", 1, "csthumbnail", 3, "imageData"], [1, "text-center", "small", 2, "color", "white"], ["id", "imageCount", 2, "color", "rgb(211, 34, 81)", "font-size", "14pt"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Windowing", 1, "btn", "btn-sm", "btn-default", 3, "click"], [1, "fa", "fa-sun"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Invert", 1, "btn", "btn-sm", "btn-default", 3, "click"], [1, "fa", "fa-adjust"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Scroll", 1, "btn", "btn-sm", "btn-default", 3, "click"], [1, "fa", "fa-bars"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Length", 1, "btn", "btn-sm", "btn-default", 3, "click"], [1, "fa", "fa-arrows-alt-v"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Angle", 1, "btn", "btn-sm", "btn-default", 3, "click"], [1, "fa", "fa-angle-left"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Pixel Probe", 1, "btn", "btn-sm", "btn-default", 3, "click"], [1, "fa", "fa-dot-circle"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Elliptical ROI", 1, "btn", "btn-sm", "btn-default", 3, "click"], [1, "fa", "fa-circle"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Rectangle ROI", 1, "btn", "btn-sm", "btn-default", 3, "click"], [1, "fa", "fa-square"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Reset Image", 1, "btn", "btn-sm", "btn-default", 3, "click"], [1, "fa", "fa-window-restore"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Play Clip", 1, "btn", "btn-sm", "btn-default", 2, "border-left", "1px dotted white", 3, "click"], [1, "fa", "fa-play"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Stop Clip", 1, "btn", "btn-sm", "btn-default", 3, "click"], [1, "fa", "fa-stop"], ["download", "", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Download Imagens", 1, "btn", "btn-sm", "btn-default", 2, "border-left", "1px dotted white", 3, "href"], [1, "fa", "fa-download"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Carrega mais imagens...", 1, "btn", "btn-sm", "btn-default", 2, "border-left", "1px dotted white", "color", "white", "white-space", "nowrap", 3, "click"], [1, "fas", "fa-cloud-download-alt"]], template: function DICOMViewerComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, inputs: { enableViewerTools: "enableViewerTools", enablePlayTools: "enablePlayTools", downloadImagesURL: "downloadImagesURL", maxImagesToLoad: "maxImagesToLoad" }, decls: 27, vars: 12, consts: [[2, "display", "flex", "width", "100%", "height", "100%"], ["class", "thumbnailSelector", "style", "margin-right: 5px;", 4, "ngIf"], [2, "overflow", "hidden", "width", "100%", "height", "100%", "background-color", "#383838"], [1, "btn-group"], ["class", "btn-group", 4, "ngIf"], ["download", "", "style", "border-left: 1px dotted white;", "class", "btn btn-sm btn-default", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Download Imagens", 3, "href", 4, "ngIf"], ["type", "button", "style", "border-left: 1px dotted white;color: white;white-space: nowrap;", "class", "btn btn-sm btn-default", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Carrega mais imagens...", 3, "click", 4, "ngIf"], [2, "padding-left", "15px", "padding-top", "15px", 3, "ngStyle"], ["diameter", "30", "strokeWidth", "5", "color", "warn", 2, "display", "inline-block"], ["oncontextmenu", "return false", "unselectable", "on", "onselectstart", "return false;", "onmousedown", "return false;", 1, "cornerstone-enabled-image", 2, "width", "100%", "height", "calc(100% - 60px)", "position", "relative", "display", "inline-block", "color", "white"], ["cornerstone", "", "id", "dicomImage", 2, "width", "100%", "height", "100%", "top", "0px", "left", "0px", "position", "absolute", "outline", "none", "margin", "0 auto"], ["id", "mrtopleft", 2, "position", "absolute", "top", "3px", "left", "3px"], ["id", "mrtopright", 2, "position", "absolute", "top", "3px", "right", "3px"], ["id", "mrbottomleft", 2, "position", "absolute", "bottom", "3px", "left", "3px"], ["id", "mrbottomright", 2, "position", "absolute", "bottom", "6px", "right", "3px"], ["id", "zoomText"], ["id", "sliceText"], [1, "thumbnailSelector", 2, "margin-right", "5px"], [1, "thumbnails", "list-group", 2, "height", "100%"], ["class", "list-group-item", "oncontextmenu", "return false", "unselectable", "on", "onselectstart", "return false;", "onmousedown", "return false;", 3, "ngClass", "click", 4, "ngFor", "ngForOf"], ["oncontextmenu", "return false", "unselectable", "on", "onselectstart", "return false;", "onmousedown", "return false;", 1, "list-group-item", 3, "ngClass", "click"], ["thumbnail", "", "oncontextmenu", "return false", "unselectable", "on", "onselectstart", "return false;", "onmousedown", "return false;", 1, "csthumbnail", 3, "imageData"], [1, "text-center", "small", 2, "color", "white"], ["id", "imageCount", 2, "color", "rgb(211, 34, 81)", "font-size", "14pt"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Zoom", 1, "btn", "btn-sm", "btn-default", 3, "click"], [1, "fa", "fa-search"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Pan", 1, "btn", "btn-sm", "btn-default", 3, "click"], [1, "fa", "fa-arrows-alt"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Windowing", 1, "btn", "btn-sm", "btn-default", 3, "click"], [1, "fa", "fa-sun"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Invert", 1, "btn", "btn-sm", "btn-default", 3, "click"], [1, "fa", "fa-adjust"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Rectangle ROI", 1, "btn", "btn-sm", "btn-default", 3, "click"], [1, "fa", "fa-square"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Length", 1, "btn", "btn-sm", "btn-default", 3, "click"], [1, "fa", "fa-arrows-alt-v"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Reset Image", 1, "btn", "btn-sm", "btn-default", 3, "click"], [1, "fa", "fa-window-restore"], ["download", "", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Download Imagens", 1, "btn", "btn-sm", "btn-default", 2, "border-left", "1px dotted white", 3, "href"], [1, "fa", "fa-download"], ["type", "button", "data-container", "body", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Carrega mais imagens...", 1, "btn", "btn-sm", "btn-default", 2, "border-left", "1px dotted white", "color", "white", "white-space", "nowrap", 3, "click"], [1, "fas", "fa-cloud-download-alt"]], template: function DICOMViewerComponent_Template(rf, ctx) { if (rf & 1) {
         ɵngcc0.ɵɵelementStart(0, "div", 0);
-        ɵngcc0.ɵɵtemplate(1, DICOMViewerComponent_div_1_Template, 7, 1, "div", 1);
+        ɵngcc0.ɵɵtemplate(1, DICOMViewerComponent_div_1_Template, 3, 1, "div", 1);
         ɵngcc0.ɵɵelementStart(2, "div", 2);
         ɵngcc0.ɵɵelementStart(3, "div");
         ɵngcc0.ɵɵelementStart(4, "div", 3);
-        ɵngcc0.ɵɵtemplate(5, DICOMViewerComponent_div_5_Template, 19, 0, "div", 4);
+        ɵngcc0.ɵɵtemplate(5, DICOMViewerComponent_div_5_Template, 15, 0, "div", 4);
         ɵngcc0.ɵɵelementStart(6, "div", 3);
-        ɵngcc0.ɵɵelementStart(7, "button", 5);
-        ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_Template_button_click_7_listener() { return ctx.enableZoom(); });
-        ɵngcc0.ɵɵelement(8, "span", 6);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(9, "button", 7);
-        ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_Template_button_click_9_listener() { return ctx.enablePan(); });
-        ɵngcc0.ɵɵelement(10, "span", 8);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵtemplate(11, DICOMViewerComponent_button_11_Template, 2, 0, "button", 9);
-        ɵngcc0.ɵɵtemplate(12, DICOMViewerComponent_button_12_Template, 2, 0, "button", 10);
-        ɵngcc0.ɵɵtemplate(13, DICOMViewerComponent_a_13_Template, 2, 1, "a", 11);
-        ɵngcc0.ɵɵelementStart(14, "button", 12);
-        ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_Template_button_click_14_listener() { return ctx.previousImage(); });
-        ɵngcc0.ɵɵelement(15, "span", 13);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(16, "button", 14);
-        ɵngcc0.ɵɵlistener("click", function DICOMViewerComponent_Template_button_click_16_listener() { return ctx.nextImage(); });
-        ɵngcc0.ɵɵelement(17, "span", 15);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵtemplate(18, DICOMViewerComponent_a_18_Template, 3, 1, "a", 16);
-        ɵngcc0.ɵɵelementStart(19, "div", 17);
-        ɵngcc0.ɵɵelement(20, "mat-spinner", 18);
+        ɵngcc0.ɵɵtemplate(7, DICOMViewerComponent_a_7_Template, 2, 1, "a", 5);
+        ɵngcc0.ɵɵtemplate(8, DICOMViewerComponent_a_8_Template, 3, 1, "a", 6);
+        ɵngcc0.ɵɵelementStart(9, "div", 7);
+        ɵngcc0.ɵɵelement(10, "mat-spinner", 8);
         ɵngcc0.ɵɵelementEnd();
         ɵngcc0.ɵɵelementEnd();
         ɵngcc0.ɵɵelementEnd();
         ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(21, "div", 19);
-        ɵngcc0.ɵɵelement(22, "div", 20);
-        ɵngcc0.ɵɵelementStart(23, "div", 21);
+        ɵngcc0.ɵɵelementStart(11, "div", 9);
+        ɵngcc0.ɵɵelement(12, "div", 10);
+        ɵngcc0.ɵɵelementStart(13, "div", 11);
+        ɵngcc0.ɵɵtext(14);
+        ɵngcc0.ɵɵelementEnd();
+        ɵngcc0.ɵɵelementStart(15, "div", 12);
+        ɵngcc0.ɵɵtext(16);
+        ɵngcc0.ɵɵelementEnd();
+        ɵngcc0.ɵɵelementStart(17, "div", 13);
+        ɵngcc0.ɵɵelementStart(18, "div");
+        ɵngcc0.ɵɵtext(19);
+        ɵngcc0.ɵɵelementEnd();
+        ɵngcc0.ɵɵelementStart(20, "div");
+        ɵngcc0.ɵɵtext(21);
+        ɵngcc0.ɵɵelementEnd();
+        ɵngcc0.ɵɵelementEnd();
+        ɵngcc0.ɵɵelementStart(22, "div", 14);
+        ɵngcc0.ɵɵelementStart(23, "div", 15);
         ɵngcc0.ɵɵtext(24);
         ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(25, "div", 22);
+        ɵngcc0.ɵɵelementStart(25, "div", 16);
         ɵngcc0.ɵɵtext(26);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(27, "div", 23);
-        ɵngcc0.ɵɵelementStart(28, "div");
-        ɵngcc0.ɵɵtext(29);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(30, "div");
-        ɵngcc0.ɵɵtext(31);
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementEnd();
-        ɵngcc0.ɵɵelementStart(32, "div", 24);
-        ɵngcc0.ɵɵelementStart(33, "div", 25);
-        ɵngcc0.ɵɵtext(34);
         ɵngcc0.ɵɵelementEnd();
         ɵngcc0.ɵɵelementEnd();
         ɵngcc0.ɵɵelementEnd();
@@ -789,17 +745,9 @@ DICOMViewerComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: DICOMViewerComp
         ɵngcc0.ɵɵproperty("ngIf", ctx.seriesList.length > 1);
         ɵngcc0.ɵɵadvance(4);
         ɵngcc0.ɵɵproperty("ngIf", ctx.enableViewerTools);
-        ɵngcc0.ɵɵadvance(6);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.enablePlayTools);
-        ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngIf", ctx.enablePlayTools);
-        ɵngcc0.ɵɵadvance(1);
+        ɵngcc0.ɵɵadvance(2);
         ɵngcc0.ɵɵproperty("ngIf", ctx.downloadImagesURL != "");
         ɵngcc0.ɵɵadvance(1);
-        ɵngcc0.ɵɵproperty("ngStyle", ctx.hidePreviousImage);
-        ɵngcc0.ɵɵadvance(2);
-        ɵngcc0.ɵɵproperty("ngStyle", ctx.hideNextImage);
-        ɵngcc0.ɵɵadvance(2);
         ɵngcc0.ɵɵproperty("ngIf", ctx.moreImagestoLoad != "");
         ɵngcc0.ɵɵadvance(1);
         ɵngcc0.ɵɵproperty("ngStyle", ctx.showProgress);
@@ -812,6 +760,8 @@ DICOMViewerComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: DICOMViewerComp
         ɵngcc0.ɵɵadvance(2);
         ɵngcc0.ɵɵtextInterpolate1(" WW/WC: ", ctx.viewPort.windowingValue, " ");
         ɵngcc0.ɵɵadvance(3);
+        ɵngcc0.ɵɵtextInterpolate1("Zoom: ", ctx.viewPort.zoomValue, "");
+        ɵngcc0.ɵɵadvance(2);
         ɵngcc0.ɵɵtextInterpolate2("Image: ", ctx.imageCount > 0 ? ctx.viewPort.currentIndex + 1 : 0, "/", ctx.imageCount, "");
     } }, directives: [ɵngcc1.NgIf, ɵngcc1.NgStyle, ɵngcc2.MatSpinner, CornerstoneDirective, ɵngcc1.NgForOf, ɵngcc1.NgClass, ThumbnailDirective], styles: [".btn-default[_ngcontent-%COMP%]{color:#fff;background-color:#424242;border-color:#424242;font-size:24pt;background-image:none;text-shadow:none}.thumbnailSelector[_ngcontent-%COMP%]{width:106px;float:left;margin-left:5px;height:100%;background-color:#424242}.thumbnails[_ngcontent-%COMP%]{margin:0;overflow-y:scroll;overflow-x:hidden}.csthumbnail[_ngcontent-%COMP%]{color:#fff;background-color:#000;width:100px;height:100px;border:0;padding:0}.version[_ngcontent-%COMP%]{position:absolute;bottom:20px;width:106px;text-align:center}a.list-group-item[_ngcontent-%COMP%]{background-color:#000;padding:2px;border:1px solid #424242;z-index:5;margin-bottom:3px}a.list-group-item.active[_ngcontent-%COMP%], a.list-group-item.active[_ngcontent-%COMP%]:focus, a.list-group-item.active[_ngcontent-%COMP%]:hover{background-color:#424242;border-color:#4e4e4e;background-image:linear-gradient(#d32251,#d32251,#d32251)}a.list-group-item.active[_ngcontent-%COMP%]{color:#00f}"] });
 DICOMViewerComponent.ctorParameters = () => [];
@@ -827,7 +777,7 @@ DICOMViewerComponent.propDecorators = {
         type: Component,
         args: [{
                 selector: 'dicom-viewer',
-                template: "<div style=\"display: flex; width:100%; height: 100%;\">\n    <div class=\"thumbnailSelector\" *ngIf=\"seriesList.length > 1\" style=\"margin-right: 5px;\">\n        <div class=\"thumbnails list-group\" style=\"height: 100%;\">\n            <a *ngFor=\"let series of seriesList; let i=index\" [ngClass]=\"{'active': currentSeriesIndex === i}\" class=\"list-group-item\"\n                oncontextmenu=\"return false\" unselectable=\"on\" onselectstart=\"return false;\" onmousedown=\"return false;\"\n                (click)=\"showSeries(i)\">\n                <div thumbnail [imageData]=\"series.imageList[0]\" class=\"csthumbnail\" oncontextmenu=\"return false\"\n                    unselectable=\"on\" onselectstart=\"return false;\" onmousedown=\"return false;\">\n                </div>\n                <div class=\"text-center small\" style=\"color:white;\">{{series.seriesDescription}}</div>\n                <div id=\"mrtopright\" style=\"position: absolute;top:3px; right:3px\">\n                    <div id=\"imageCount\" style=\"color: rgb(211, 34, 81); font-size: 14pt\">{{series.imageCount}}</div>\n                </div>\n            </a>\n            <div class=\"version\">\n                <h6 style=\"color:white;\"><small>1.20.12.17</small></h6>\n            </div>\n        </div>\n    </div>\n\n    <!--container where image will be loaded-->\n    <div style=\"overflow: hidden; width: 100%; height: 100%; background-color: #424242;\">\n\n        <!-- Toolbar -->\n        <div>\n            <div class=\"btn-group\">\n                <div class=\"btn-group\" *ngIf=\"enableViewerTools\">\n\n                    <!-- WW/WL -->\n                    <button type=\"button\" (click)=\"enableWindowing()\" class=\"btn btn-sm btn-default\" data-container='body'\n                        data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Windowing\"><span class=\"fa fa-sun\"></span></button>\n                    <!-- Invert -->\n                    <button type=\"button\" (click)=\"invertImage()\" class=\"btn btn-sm btn-default\" data-container='body'\n                        data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Invert\"><span class=\"fa fa-adjust\"></span></button>\n                    <!-- Stack scroll -->\n                    <button type=\"button\" (click)=\"enableScroll()\" class=\"btn btn-sm btn-default\" data-container='body'\n                        data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Scroll\"><span class=\"fa fa-bars\"></span></button>\n                    <!-- Length measurement -->\n                    <button type=\"button\" (click)=\"enableLength()\" class=\"btn btn-sm btn-default\" data-container='body'\n                        data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Length\"><span class=\"fa fa-arrows-alt-v\"></span></button>\n                    <!-- Angle measurement -->\n                    <button type=\"button\" (click)=\"enableAngle()\" class=\"btn btn-sm btn-default\" data-container='body'\n                        data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Angle\"><span class=\"fa fa-angle-left\"></span></button>\n                    <!-- Pixel probe -->\n                    <button type=\"button\" (click)=\"enableProbe()\" class=\"btn btn-sm btn-default\" data-container='body'\n                        data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Pixel Probe\"><span class=\"fa fa-dot-circle\"></span></button>\n                    <!-- Elliptical ROI -->\n                    <button type=\"button\" (click)=\"enableElliptical()\" class=\"btn btn-sm btn-default\" data-container='body'\n                        data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Elliptical ROI\"><span class=\"fa fa-circle\"></span></button>\n                    <!-- Rectangle ROI -->\n                    <button type=\"button\" (click)=\"enableRectangle()\" class=\"btn btn-sm btn-default\" data-container='body'\n                        data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Rectangle ROI\"><span class=\"fa fa-square\"></span></button>\n                    <!-- Reset Image -->\n                    <button type=\"button\" (click)=\"resetImage()\" class=\"btn btn-sm btn-default\" data-container='body'\n                        data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Reset Image\"><span class=\"fa fa-window-restore\"></span></button>\n                </div>\n                <div class=\"btn-group\">\n                    <!-- Zoom -->\n                    <button type=\"  button\" (click)=\"enableZoom()\" class=\"btn btn-sm btn-default\" data-container='body'\n                      data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Zoom\"><span class=\"fa fa-search\"></span></button>\n                    <!-- Pan -->\n                    <button type=\"button\" (click)=\"enablePan()\" class=\"btn btn-sm btn-default\" data-container='body' data-toggle=\"tooltip\"\n                      data-placement=\"bottom\" title=\"Pan\"><span class=\"fa fa-arrows-alt\"></span></button>\n                    <!-- Play clip -->\n                    <button type=\"button\" *ngIf=\"enablePlayTools\" (click)=\"playClip()\" style=\"border-left: 1px dotted white;\" class=\"btn btn-sm btn-default\"\n                        data-container='body' data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Play Clip\"><span\n                            class=\"fa fa-play\"></span></button>\n                    <!-- Stop clip -->\n                    <button type=\"button\" *ngIf=\"enablePlayTools\" (click)=\"stopClip()\" class=\"btn btn-sm btn-default\" data-container='body'\n                        data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Stop Clip\"><span class=\"fa fa-stop\"></span></button>\n\n                    <!-- Layout -->\n                    <!--                 <button type=\"button\" style=\"border-left: 1px dotted white;\" [matMenuTriggerFor]=\"menu\" class=\"btn btn-sm btn-default\" data-container='body' data-toggle=\"dropdown\" aria-expanded=\"false\" data-placement=\"top\" title=\"Layout\"><span class=\"fa fa-th-large\"></span></button>\n                  <mat-menu #menu=\"matMenu\">\n                          <a mat-menu-item class=\"dropdown-item\" >1x1</a>\n                          <a mat-menu-item class=\"dropdown-item\" >2x1</a>\n                          <a mat-menu-item class=\"dropdown-item\" >1x2</a>\n                          <a mat-menu-item class=\"dropdown-item\" >2x2</a>\n\n                  </mat-menu> -->\n\n                    <!-- Download -->\n                    <a *ngIf=\"downloadImagesURL != ''\" [href]=\"downloadImagesURL\" download style=\"border-left: 1px dotted white;\"\n                        class=\"btn btn-sm btn-default\" data-container='body' data-toggle=\"tooltip\" data-placement=\"bottom\"\n                        title=\"Download Imagens\">\n                        <span class=\"fa fa-download\"></span>\n                    </a>\n\n                    <!-- Imagem Anterior -->\n                    <button type=\"button\" (click)=\"previousImage()\" [ngStyle]=\"hidePreviousImage\" style=\"border-left: 1px dotted white;\"\n                        class=\"btn btn-sm btn-default\" data-container='body' data-toggle=\"tooltip\" data-placement=\"bottom\"\n                        title=\"Imagem Anterior\"><span class=\"fa fa-backward\"></span></button>\n                    <!-- Pr\u00F3xima Imagem -->\n                    <button type=\"button\" (click)=\"nextImage()\" [ngStyle]=\"hideNextImage\" class=\"btn btn-sm btn-default\"\n                        data-container='body' data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Pr\u00F3xima Imagem\"><span\n                            class=\"fa fa-forward\"></span></button>\n\n                    <!-- Load Next Batch -->\n                    <a type=\"button\" *ngIf=\"moreImagestoLoad != ''\" (click)=\"loadMoreImages()\" style=\"border-left: 1px dotted white;color: white;white-space: nowrap;\"\n                        class=\"btn btn-sm btn-default\" data-container='body' data-toggle=\"tooltip\" data-placement=\"bottom\"\n                        title=\"Carrega mais imagens...\"><i class=\"fas fa-cloud-download-alt\"></i> clique aqui para trazer as pr\u00F3ximas {{moreImagestoLoad}} imagens\n                    </a>\n\n                    <!-- Progress Spinner -->\n                    <div style=\"padding-left: 15px; padding-top: 15px;\" [ngStyle]=\"showProgress\">\n                        <mat-spinner style=\"display: inline-block;\" diameter=\"30\" strokeWidth=\"5\" color=\"warn\"></mat-spinner>\n                    </div>\n\n                </div>\n\n            </div>\n        </div>\n        <div style=\"width: 100%; height: calc(100% - 60px);position:relative;display:inline-block;color:white;\"\n            oncontextmenu=\"return false\" class='cornerstone-enabled-image' unselectable='on' onselectstart='return false;'\n            onmousedown='return false;'>\n            <div cornerstone style=\"width: 100%; height: 100%;top:0px;left:0px;position:absolute;outline:none;margin: 0 auto;\"\n                id=\"dicomImage\">\n            </div>\n            <div id=\"mrtopleft\" style=\"position: absolute;top:3px; left:3px\">\n                {{viewPort.patientName}}\n            </div>\n            <div id=\"mrtopright\" style=\"position: absolute;top:3px; right:3px\">\n                {{viewPort.hospital}}\n            </div>\n            <div id=\"mrbottomleft\" style=\"position: absolute;bottom:3px; left:3px\">\n                <div>\n                    {{viewPort.instanceNumber}}\n                </div>\n                <div>\n                    WW/WC: {{viewPort.windowingValue}}\n                </div>\n            </div>\n            <div id=\"mrbottomright\" style=\"position: absolute;bottom:6px; right:3px\">\n                <!-- <div id=\"zoomText\">Zoom: {{viewPort.zoomValue}}</div> -->\n                <div id=\"sliceText\">Image: {{(imageCount > 0)?viewPort.currentIndex+1:0}}/{{imageCount}}</div>\n            </div>\n        </div>\n\n    </div>\n\n</div>\n",
+                template: "<div style=\"display: flex; width:100%; height: 100%;\">\n    <div class=\"thumbnailSelector\" *ngIf=\"seriesList.length > 1\" style=\"margin-right: 5px;\">\n        <div class=\"thumbnails list-group\" style=\"height: 100%;\">\n            <a *ngFor=\"let series of seriesList; let i=index\" [ngClass]=\"{'active': currentSeriesIndex === i}\" class=\"list-group-item\"\n                oncontextmenu=\"return false\" unselectable=\"on\" onselectstart=\"return false;\" onmousedown=\"return false;\"\n                (click)=\"showSeries(i)\">\n                <div thumbnail [imageData]=\"series.imageList[0]\" class=\"csthumbnail\" oncontextmenu=\"return false\"\n                    unselectable=\"on\" onselectstart=\"return false;\" onmousedown=\"return false;\">\n                </div>\n                <div class=\"text-center small\" style=\"color:white;\">{{series.seriesDescription}}</div>\n                <div id=\"mrtopright\" style=\"position: absolute;top:3px; right:3px\">\n                    <div id=\"imageCount\" style=\"color: rgb(211, 34, 81); font-size: 14pt\">{{series.imageCount}}</div>\n                </div>\n            </a>\n        </div>\n    </div>\n\n    <!--container where image will be loaded-->\n    <div style=\"overflow: hidden; width: 100%; height: 100%; background-color: #383838;\">\n\n        <!-- Toolbar -->\n        <div>\n            <div class=\"btn-group\">\n                <div class=\"btn-group\" *ngIf=\"enableViewerTools\">\n                    <!-- Zoom -->\n                    <button type=\"button\" (click)=\"enableZoom()\" class=\"btn btn-sm btn-default\" data-container='body'\n                      data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Zoom\"><span class=\"fa fa-search\"></span></button>\n                    <!-- Pan -->\n                    <button type=\"button\" (click)=\"enablePan()\" class=\"btn btn-sm btn-default\" data-container='body' data-toggle=\"tooltip\"\n                      data-placement=\"bottom\" title=\"Pan\"><span class=\"fa fa-arrows-alt\"></span></button>\n                    <!-- WW/WL -->\n                    <button type=\"button\" (click)=\"enableWindowing()\" class=\"btn btn-sm btn-default\" data-container='body'\n                        data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Windowing\"><span class=\"fa fa-sun\"></span></button>\n                    <!-- Invert -->\n                    <button type=\"button\" (click)=\"invertImage()\" class=\"btn btn-sm btn-default\" data-container='body'\n                        data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Invert\"><span class=\"fa fa-adjust\"></span></button>\n                    <button type=\"button\" (click)=\"enableRectangle()\" class=\"btn btn-sm btn-default\" data-container='body'\n                        data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Rectangle ROI\"><span class=\"fa fa-square\"></span></button>\n                    <!-- Length measurement -->\n                    <button type=\"button\" (click)=\"enableLength()\" class=\"btn btn-sm btn-default\" data-container='body'\n                        data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Length\"><span class=\"fa fa-arrows-alt-v\"></span></button>\n                    <!-- Reset Image -->\n                    <button type=\"button\" (click)=\"resetImage()\" class=\"btn btn-sm btn-default\" data-container='body'\n                        data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Reset Image\"><span class=\"fa fa-window-restore\"></span></button>\n                    <!-- Stack scroll -->\n                    <!-- <button type=\"button\" (click)=\"enableScroll()\" class=\"btn btn-sm btn-default\" data-container='body'\n                        data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Scroll\"><span class=\"fa fa-bars\"></span></button> -->\n                    <!-- Angle measurement -->\n                    <!-- <button type=\"button\" (click)=\"enableAngle()\" class=\"btn btn-sm btn-default\" data-container='body'\n                        data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Angle\"><span class=\"fa fa-angle-left\"></span></button> -->\n                    <!-- Pixel probe -->\n                    <!-- <button type=\"button\" (click)=\"enableProbe()\" class=\"btn btn-sm btn-default\" data-container='body'\n                        data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Pixel Probe\"><span class=\"fa fa-dot-circle\"></span></button> -->\n                    <!-- Elliptical ROI -->\n                    <!-- <button type=\"button\" (click)=\"enableElliptical()\" class=\"btn btn-sm btn-default\" data-container='body'\n                        data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Elliptical ROI\"><span class=\"fa fa-circle\"></span></button> -->\n                    <!-- Rectangle ROI -->\n                </div>\n                <div class=\"btn-group\">\n                    <!-- Download -->\n                    <a *ngIf=\"downloadImagesURL != ''\" [href]=\"downloadImagesURL\" download style=\"border-left: 1px dotted white;\"\n                        class=\"btn btn-sm btn-default\" data-container='body' data-toggle=\"tooltip\" data-placement=\"bottom\"\n                        title=\"Download Imagens\">\n                        <span class=\"fa fa-download\"></span>\n                    </a>\n                    <!-- Imagem Anterior -->\n                    <!-- <button type=\"button\" (click)=\"previousImage()\" [ngStyle]=\"hidePreviousImage\" style=\"border-left: 1px dotted white;\"\n                        class=\"btn btn-sm btn-default\" data-container='body' data-toggle=\"tooltip\" data-placement=\"bottom\"\n                        title=\"Imagem Anterior\"><span class=\"fa fa-backward\"></span></button> -->\n                    <!-- Pr\u00F3xima Imagem -->\n                    <!-- <button type=\"button\" (click)=\"nextImage()\" [ngStyle]=\"hideNextImage\" class=\"btn btn-sm btn-default\"\n                        data-container='body' data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"Pr\u00F3xima Imagem\"><span\n                            class=\"fa fa-forward\"></span></button> -->\n                    <!-- Load Next Batch -->\n                    <a type=\"button\" *ngIf=\"moreImagestoLoad != ''\" (click)=\"loadMoreImages()\" style=\"border-left: 1px dotted white;color: white;white-space: nowrap;\"\n                        class=\"btn btn-sm btn-default\" data-container='body' data-toggle=\"tooltip\" data-placement=\"bottom\"\n                        title=\"Carrega mais imagens...\"><i class=\"fas fa-cloud-download-alt\"></i> clique aqui para trazer as pr\u00F3ximas {{moreImagestoLoad}} imagens\n                    </a>\n                    <!-- Progress Spinner -->\n                    <div style=\"padding-left: 15px; padding-top: 15px;\" [ngStyle]=\"showProgress\">\n                        <mat-spinner style=\"display: inline-block;\" diameter=\"30\" strokeWidth=\"5\" color=\"warn\"></mat-spinner>\n                    </div>\n                    \n                </div>\n            </div>\n        </div>\n        <div style=\"width: 100%; height: calc(100% - 60px);position:relative;display:inline-block;color:white;\"\n            oncontextmenu=\"return false\" class='cornerstone-enabled-image' unselectable='on' onselectstart='return false;'\n            onmousedown='return false;'>\n            <div cornerstone style=\"width: 100%; height: 100%;top:0px;left:0px;position:absolute;outline:none;margin: 0 auto;\"\n                id=\"dicomImage\">\n            </div>\n            <div id=\"mrtopleft\" style=\"position: absolute;top:3px; left:3px\">\n                {{viewPort.patientName}}\n            </div>\n            <div id=\"mrtopright\" style=\"position: absolute;top:3px; right:3px\">\n                {{viewPort.hospital}}\n            </div>\n            <div id=\"mrbottomleft\" style=\"position: absolute;bottom:3px; left:3px\">\n                <div>\n                    {{viewPort.instanceNumber}}\n                </div>\n                <div>\n                    WW/WC: {{viewPort.windowingValue}}\n                </div>\n            </div>\n            <div id=\"mrbottomright\" style=\"position: absolute;bottom:6px; right:3px\">\n                <div id=\"zoomText\">Zoom: {{viewPort.zoomValue}}</div>\n                <div id=\"sliceText\">Image: {{(imageCount > 0)?viewPort.currentIndex+1:0}}/{{imageCount}}</div>\n            </div>\n        </div>\n\n    </div>\n\n</div>\n",
                 styles: [".btn-default{color:#fff;background-color:#424242;border-color:#424242;font-size:24pt;background-image:none;text-shadow:none}.thumbnailSelector{width:106px;float:left;margin-left:5px;height:100%;background-color:#424242}.thumbnails{margin:0;overflow-y:scroll;overflow-x:hidden}.csthumbnail{color:#fff;background-color:#000;width:100px;height:100px;border:0;padding:0}.version{position:absolute;bottom:20px;width:106px;text-align:center}a.list-group-item{background-color:#000;padding:2px;border:1px solid #424242;z-index:5;margin-bottom:3px}a.list-group-item.active,a.list-group-item.active:focus,a.list-group-item.active:hover{background-color:#424242;border-color:#4e4e4e;background-image:linear-gradient(#d32251,#d32251,#d32251)}a.list-group-item.active{color:#00f}"]
             }]
     }], function () { return []; }, { enableViewerTools: [{
