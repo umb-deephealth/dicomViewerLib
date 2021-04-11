@@ -91,24 +91,21 @@
                 id="dicomImage">
             </div>
             <div id="mrtopright" style="position:absolute; right:3px; top:3x;">
-                <div>
-                    Patient: {{viewPort.patientName}}
+                <div *ngIf="viewPort.patientName != ''">
+                    <b>Patient:</b> {{viewPort.patientName}}
                 </div>
-                <div>
-                    Hospital: {{viewPort.hospital}}
-                </div>
-                <div>
-                    Instance: {{viewPort.instanceNumber}}
+                <div *ngIf="viewPort.instanceNumber != ''">
+                    <b>Instance:</b> {{viewPort.instanceNumber}}
                 </div>
             </div>
             <div id="mrbottomleft" style="position:absolute; bottom:3px; left:3px">
                 <div>
-                    WW/WC: {{viewPort.windowingValue}}
+                    <b>WW/WC:</b> {{viewPort.windowingValue}}
                 </div>
-                <div id="zoomText">Zoom: {{viewPort.zoomValue}}</div>
+                <div id="zoomText"><b>Zoom:</b> {{viewPort.zoomValue}}</div>
             </div>
             <div id="mrbottomright" style="position:absolute; bottom:6px; right:3px">
-                <div id="sliceText">Image: {{(imageCount > 0)?viewPort.currentIndex+1:0}}/{{imageCount}}</div>
+                <div id="sliceText"><b>Image:</b> {{(imageCount > 0)?viewPort.currentIndex+1:0}}/{{imageCount}}</div>
             </div>
         </div>
 
