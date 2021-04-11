@@ -10,11 +10,10 @@
       (change)="loadDICOMImages($event.target.files)">
     </div>
 
-
-
   </div>
 
+  
   <div style="display: flex;height: calc(100% - 90px); width:100%;">
-    <dicom-viewer [enableViewerTools]="true" [enablePlayTools]="false" [maxImagesToLoad]="20" style="height:100%; width:100%; margin: 10px;"></dicom-viewer>
+    <dicom-viewer [enableViewerTools]="true" [enablePlayTools]="false" [maxImagesToLoad]="20" style="height:100%; width:100%; margin: 1px; border: 4px solid #252525; font-family:Verdana, Geneva, Tahoma, sans-serif"></dicom-viewer>
   </div>
 </div>

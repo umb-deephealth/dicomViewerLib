@@ -3,7 +3,6 @@ import { CornerstoneDirective } from './cornerstone.directive';
 import { ThumbnailDirective } from './thumbnail.directive';
 
 
-
 declare const cornerstone;
 declare const cornerstoneTools;
 
@@ -40,7 +39,7 @@ export class DICOMViewerComponent implements OnInit {
   public loadingImages = false;
   public get showProgress(): any { return { display: (this.loadingImages) ? 'inline-block' : 'none' } };
 
-  @ViewChild(CornerstoneDirective, { static: true }) viewPort: CornerstoneDirective; // the main cornertone view port
+  @ViewChild(CornerstoneDirective, { static: true }) viewPort: CornerstoneDirective; // the main cornerstone viewport
   @ViewChildren(ThumbnailDirective) thumbnails: Array<ThumbnailDirective>;
 
   private loadedImages = [];
@@ -53,7 +52,7 @@ export class DICOMViewerComponent implements OnInit {
   ngOnInit() {
     this.element = this.viewPort.element;
   }
-
+ 
   /**
    * Load dicom images for display
    *
@@ -206,7 +205,7 @@ export class DICOMViewerComponent implements OnInit {
       // cornerstoneTools.wwwc.activate(this.element, 1);
       // cornerstoneTools.wwwcTouchDrag.activate(this.element);
       cornerstoneTools.setToolActiveForElement(this.element, 'Wwwc', { mouseButtonMask: 1 }, ['Mouse']);
-
+      cornerstoneTools.setToolActiveForElement(this.element, 'Pan', { mouseButtonMask: 2 }, ['Mouse']); // pan right mouse
     }
   }
 
@@ -250,6 +249,7 @@ export class DICOMViewerComponent implements OnInit {
       this.resetAllTools();
       // cornerstoneTools.length.activate(this.element, 1);
       cornerstoneTools.setToolActiveForElement(this.element, 'Length', { mouseButtonMask: 1 }, ['Mouse']);
+      cornerstoneTools.setToolActiveForElement(this.element, 'Pan', { mouseButtonMask: 2 }, ['Mouse']); // pan right mouse
     }
   }
 
@@ -259,6 +259,7 @@ export class DICOMViewerComponent implements OnInit {
       this.resetAllTools();
       // cornerstoneTools.simpleAngle.activate(this.element, 1);
       cornerstoneTools.setToolActiveForElement(this.element, 'Angle', { mouseButtonMask: 1 }, ['Mouse']);
+      cornerstoneTools.setToolActiveForElement(this.element, 'Pan', { mouseButtonMask: 2 }, ['Mouse']); // pan right mouse
     }
   }
 
@@ -268,6 +269,7 @@ export class DICOMViewerComponent implements OnInit {
       this.resetAllTools();
       // cornerstoneTools.probe.activate(this.element, 1);
       cornerstoneTools.setToolActiveForElement(this.element, 'Probe', { mouseButtonMask: 1 }, ['Mouse']);
+      cornerstoneTools.setToolActiveForElement(this.element, 'Pan', { mouseButtonMask: 2 }, ['Mouse']); // pan right mouse
     }
   }
 
@@ -277,6 +279,7 @@ export class DICOMViewerComponent implements OnInit {
       this.resetAllTools();
       // cornerstoneTools.ellipticalRoi.activate(this.element, 1);
       cornerstoneTools.setToolActiveForElement(this.element, 'EllipticalRoi', { mouseButtonMask: 1 }, ['Mouse']);
+      cornerstoneTools.setToolActiveForElement(this.element, 'Pan', { mouseButtonMask: 2 }, ['Mouse']); // pan right mouse
     }
   }
 
@@ -286,6 +289,7 @@ export class DICOMViewerComponent implements OnInit {
       this.resetAllTools();
       // cornerstoneTools.rectangleRoi.activate(this.element, 1);
       cornerstoneTools.setToolActiveForElement(this.element, 'RectangleRoi', { mouseButtonMask: 1 }, ['Mouse']);
+      cornerstoneTools.setToolActiveForElement(this.element, 'Pan', { mouseButtonMask: 2 }, ['Mouse']); // pan right mouse
     }
   }
 
