@@ -8,20 +8,22 @@
 }
 
 .thumbnailSelector {
-    width:106px;
-    float:left;
-    margin-left:5px;
+    width: 10%;
+    float: left;
+    margin-left: 0px;
     height: 100%;
-    background-color: #424242;
+    background-color: #2e2e2e;
 }
 
 .thumbnails {
     margin:0px;
+    margin-top: 3px;
+    margin-left: 2px;
+    margin-right: 2px;
     margin-bottom: 0px;
     overflow-y:scroll;
     overflow-x:hidden;
 }
-
 
 .csthumbnail {
     color: white;
@@ -42,15 +44,13 @@
 a.list-group-item {
     background-color: black;
     padding: 2px;
-    border: 1px solid #424242;
+    border: 1px solid #838383;
     z-index: 5;
-    margin-bottom: 3px;
+    margin-bottom: 6px;
+    margin-left: 0px;
 }
+
 a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
-    background-color: #424242;
-    border-color: #4e4e4e;
-    background-image: linear-gradient(rgb(211, 34, 81), rgb(211, 34, 81), rgb(211, 34, 81));
-}
-a.list-group-item.active {
-    color: blue;
+    background-color: #4d4d4d;
+    border-color: rgb(211, 34, 81);
 }
