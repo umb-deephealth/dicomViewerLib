@@ -45,7 +45,6 @@ a.list-group-item {
     background-color: black;
     padding: 2px;
     border: 1px solid #838383;
-    z-index: 5;
     margin-bottom: 6px;
     margin-left: 0px;
 }
